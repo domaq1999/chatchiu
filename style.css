@@ -1,0 +1,8 @@
+:root{--bg:#f4f1e8;--card:#fffdf8;--line:#e1dccd;--ink:#17201c;--soft:#5c6a63;--jade:#0f9f68}
+@media (prefers-color-scheme:dark){:root{--bg:#0b100f;--card:#121917;--line:#243029;--ink:#eeeadf;--soft:#97a39c;--jade:#3ddc97}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+h1{font-size:34px;letter-spacing:-.03em;line-height:1.15;margin:.2em 0}h2{font-size:21px;margin:2em 0 .4em;letter-spacing:-.01em}
+p,li{color:var(--soft)}li{margin:.3em 0}a{color:var(--jade)}b,strong{color:var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px 24px;margin:16px 0}
+.brand{font-weight:800;color:var(--ink);text-decoration:none}small{color:var(--soft)}
